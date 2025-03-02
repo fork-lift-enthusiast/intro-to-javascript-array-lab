@@ -187,7 +187,7 @@ Exercise 13: Retrieve the Last Array
    `numList`. As you do this, also fulfill these goals:
 
    - Assume you don't know how many nested arrays `numArrays` contains.
-   - Do not alter the original `numArrays` array.
+   - Do not alter the original `rem` array.
 
 Complete Exercise 13 in the space below:
 */
@@ -199,4 +199,6 @@ const numArrays = [
   [7, 81, 90],
 ];
 
+numList = numArrays[numArrays.length -1]
 console.log("Exercise 13 result:", numList);
+
